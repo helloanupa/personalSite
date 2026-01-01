@@ -74,6 +74,22 @@ const ContactPage: React.FC = () => {
             {isMenuOpen ? <X /> : <Menu />}
           </button>
         </div>
+        {isMenuOpen && (
+          <div className="md:hidden bg-white border-b border-gray-100 absolute w-full left-0 shadow-xl py-4 z-50">
+            <div className="flex flex-col px-8 space-y-4">
+              {navLinks.map((link) => (
+                <Link
+                  key={link.name}
+                  href={link.href}
+                  onClick={() => setIsMenuOpen(false)}
+                  className={`text-base ${link.active ? "text-blue-500 font-medium" : "text-gray-600"}`}
+                >
+                  {link.name}
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
       </nav>
 
       {/* MAIN */}
