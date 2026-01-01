@@ -131,14 +131,39 @@ const WorkPage: React.FC = () => {
           <p className="text-[10px] text-gray-400 uppercase tracking-[0.2em]">
             2019-2026 | designed by Anupa Denil Amarasekara
           </p>
-          <div className="flex justify-center space-x-6 text-gray-400">
-            <Facebook size={20} className="hover:text-black cursor-pointer transition-colors" />
-            <Instagram size={20} className="hover:text-black cursor-pointer transition-colors" />
-            <Linkedin size={20} className="hover:text-black cursor-pointer transition-colors" />
-            <Youtube size={20} className="hover:text-black cursor-pointer transition-colors" />
-            <Twitter size={20} className="hover:text-black cursor-pointer transition-colors" />
-            <Music2 size={20} className="hover:text-black cursor-pointer transition-colors" />
-          </div>
+        <div className="flex justify-center space-x-6 text-gray-400">
+  <a
+    href="https://facebook.com/yourusername"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Facebook"
+    className="hover:text-black transition-colors"
+  >
+    <Facebook size={20} />
+  </a>
+
+  <a
+    href="https://instagram.com/yourusername"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Instagram"
+    className="hover:text-black transition-colors"
+  >
+    <Instagram size={20} />
+  </a>
+
+  <a
+    href="https://linkedin.com/in/yourusername"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="LinkedIn"
+    className="hover:text-black transition-colors"
+  >
+    <Linkedin size={20} />
+  </a>
+
+    </div>
+
         </div>
       </footer>
     </div>
