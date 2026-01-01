@@ -21,8 +21,8 @@ const Portfolio: React.FC = () => {
       <nav className="sticky top-0 z-50 bg-[#f8f8f8]/80 backdrop-blur-md border-b border-gray-100 md:border-none">
         <div className="max-w-6xl mx-auto px-6 py-6 flex justify-between items-center">
           {/* Logo */}
-          <div className="text-xl font-medium italic tracking-tighter cursor-pointer">
-            anupa.me
+          <div className="text-xl font-medium tracking-tighter cursor-pointer">
+            Anupa Amarasekara
           </div>
 
           {/* Desktop Menu */}

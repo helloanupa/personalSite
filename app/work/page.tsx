@@ -11,7 +11,7 @@ const WorkPage: React.FC = () => {
     { name: 'home', href: '/' },
     { name: 'work', href: '#', active: true },
     { name: 'experience', href: '#' },
-    { name: 'contact', href: '#' },
+    { name: 'contact', href: '/contact' },
     { name: 'myArea', href: '#' },
   ];
 
@@ -19,14 +19,20 @@ const WorkPage: React.FC = () => {
     {
       title: "Ceylon Galleria",
       image: "/images/project1.jpg",
-      labels: ["React", "Label", "Label", "Label"],
-      link: "/projects/ceylon-galleria"
+      labels: ["React", "Node.js", "MongoDb", "Express", "TailwindCSS"],
+      link: "https://github.com/helloanupa/ceylonGalleria#"
     },
     
     {
-      title: "Horizon Atlas",
+      title: "Cyber Trust",
       image: "/images/project2.png",
-      labels: ["Travel", "Label", "Label", "Label"],
+      labels: ["Java", "MySQL", "TailwindCSS"],
+      link: "/projects/horizon-atlas"
+    },
+     {
+      title: "Ride Ready",
+      image: "/images/project2.png",
+      labels: ["HTML", "PHP", "JavaScript", "Css"],
       link: "/projects/horizon-atlas"
     },
   ];
@@ -36,8 +42,8 @@ const WorkPage: React.FC = () => {
       {/* --- HEADER --- */}
       <nav className="sticky top-0 z-50 bg-[#f8f8f8]/80 backdrop-blur-md">
         <div className="max-w-6xl mx-auto px-6 py-6 flex justify-between items-center">
-          <Link href="/" className="text-xl font-medium italic tracking-tighter cursor-pointer">
-            anupa.me
+          <Link href="/" className="text-xl font-medium  tracking-tighter cursor-pointer">
+            Anupa Amarasekara
           </Link>
           <div className="hidden md:flex space-x-8 text-sm text-gray-500">
             {navLinks.map((link) => (
@@ -111,7 +117,7 @@ const WorkPage: React.FC = () => {
                   href={project.link} 
                   className="inline-block px-4 py-1.5 rounded-full text-sm font-medium border border-white/50 text-white bg-white/10 backdrop-blur-sm hover:bg-blue-500 hover:text-white hover:border-transparent shadow-md transition-all"
                 >
-                  Link
+                  GitHub
                 </Link>
               </div>
             </div>
