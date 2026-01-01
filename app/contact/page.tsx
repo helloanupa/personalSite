@@ -54,8 +54,8 @@ const ContactPage: React.FC = () => {
       {/* HEADER */}
       <nav className="sticky top-0 z-50 bg-[#f8f8f8]/80 backdrop-blur-md">
         <div className="max-w-6xl mx-auto px-6 py-6 flex justify-between items-center">
-          <Link href="/" className="text-xl font-medium italic tracking-tighter">
-            anupa.me
+          <Link href="/" className="text-xl font-medium tracking-tighter">
+            Anupa Amarasekara
           </Link>
 
           <div className="hidden md:flex space-x-8 text-sm text-gray-500">
