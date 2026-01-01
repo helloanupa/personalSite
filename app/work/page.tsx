@@ -75,7 +75,7 @@ const WorkPage: React.FC = () => {
         <div className="max-w-2xl mb-12">
           <p className="text-gray-500 text-lg leading-snug">
             A collection of projects showcasing my expertise in web development, design, and digital solutions. 
-            <span className="text-black font-semibold block mt-1">From startups to enterprise applications</span>
+            <span className="text-black font-semibold block mt-1">From startups to enterprise applications :</span>
           </p>
         </div>
 

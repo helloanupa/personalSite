@@ -117,6 +117,7 @@ const ContactPage: React.FC = () => {
               <p className="text-xs uppercase text-gray-400">Location</p>
               <p className="text-lg font-medium">Colombo, Sri Lanka</p>
             </div>
+            
           </div>
         </div>
             <br></br>
