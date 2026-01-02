@@ -18,7 +18,7 @@ const WorkPage: React.FC = () => {
   const projects = [
     {
       title: "Ceylon Galleria",
-      image: "/images/project1.jpg",
+      image: "/images/project1.png",
       labels: ["React", "Node.js", "MongoDb", "Express", "TailwindCSS"],
       link: "https://github.com/helloanupa/ceylonGalleria#"
     },
