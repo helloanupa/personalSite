@@ -162,6 +162,7 @@ const WorkPage: React.FC = () => {
     <Linkedin size={20} />
   </a>
 
+
     </div>
 
         </div>
