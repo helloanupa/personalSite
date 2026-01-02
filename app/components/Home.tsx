@@ -93,7 +93,7 @@ const Portfolio: React.FC = () => {
           
           <p className="italic text-gray-500 pt-4">
             <br></br> 
-             I am always open to meaningful collaborations, internships, and projects that challenge me to grow while contributing value to people, products, and organizations.
+             I am always open to meaningful collaborations, and projects that challenge me to grow while contributing value to people, products, and organizations.
           </p>
         </div>
       </main>
